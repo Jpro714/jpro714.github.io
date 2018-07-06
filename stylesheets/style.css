@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.center {
+	text-align: center;
+	/*float: none;*/
+	margin: 0 auto;
+}
+
+.point {
+	color: #555;
+	background-color: rgba(235, 235, 235, 0.65);
+	padding: 10px;
+	margin: 10px;
+	font-size: 16px;
+}
+
+.hero {
+	margin-bottom: 60px;
+}
+
+#email {
+	display: inline-block;
+}
