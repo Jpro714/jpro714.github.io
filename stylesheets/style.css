@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,6 +6,28 @@ a {
   color: #00B7FF;
 }
 
+#vid {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.ptWrapper {
+	top: 100px;
+	right: 30px;
+	position: absolute;
+	width: 400px;
+	padding-right: 30px;
+}
+#titleContainer {
+	height: 330px;
+}
+#title {
+	position: absolute;
+	left: -150px;
+	font-size: 180px;
+}
 .center {
 	text-align: center;
 	/*float: none;*/
@@ -14,11 +35,15 @@ a {
 }
 
 .point {
-	color: #555;
+	position: relative;
+	width: 100%;
+	left: 0px;
+	margin-top: 50px;
+	padding: 15px;
+	white-space: pre-wrap;
+	color: black;
 	background-color: rgba(235, 235, 235, 0.65);
-	padding: 10px;
-	margin: 10px;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .hero {
