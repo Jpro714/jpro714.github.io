@@ -6,12 +6,6 @@ a {
   color: #00B7FF;
 }
 
-#vid {
-	position: absolute;
-	top: -100px;
-	left: 0;
-	width: 100%;
-}
 
 .ptWrapper {
 	top: -15px;
@@ -20,9 +14,26 @@ a {
 	width: 400px;
 	padding-right: 30px;
 }
+
 #titleContainer {
 	height: 330px;
 }
+#vid {
+	position: absolute;
+	top: -100px;
+	left: 0;
+	width: 100%;
+}
+
+@media (max-width:480px) {
+	#vid {
+		position: absolute;
+		top: -100px;
+		left: 0;
+		height: 100%;
+	}
+}
+
 #title {
 	position: absolute;
 	left: -165px;
